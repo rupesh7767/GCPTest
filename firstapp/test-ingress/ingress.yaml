@@ -7,17 +7,17 @@ spec:
   rules:
     - http:
         paths:           
-          - path: /getData1
+          - path: /app1
             pathType: Prefix
             backend:
               service:
                 name: service1-service
                 port: 
-                  number: 8080
-          - path: /swagger-ui/index.html
-            pathType: Prefix
-            backend:
-              service:
-                name: service1-service
-                port: 
-                  number: 8080
+                  number: 80
+          # - path: /swagger-ui/index.html
+          #   pathType: Prefix
+          #   backend:
+          #     service:
+          #       name: service1-service
+          #       port: 
+          #         number: 8080
