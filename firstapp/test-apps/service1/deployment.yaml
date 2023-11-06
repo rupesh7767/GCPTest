@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
       - name: service1
-        image: asia-south1-docker.pkg.dev/cision-ness/ness-docker-repo/service1:v200
+        image: stacksimplify/kube-nginxapp1:1.0.0
