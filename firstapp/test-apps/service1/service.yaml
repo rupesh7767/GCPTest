@@ -11,6 +11,5 @@ spec:
     app: service1
     service.name: service1-service
   ports:
-  - protocol: TCP
-    port: 8080
-    targetPort: 8080
+  - port: 80
+    targetPort: 80
